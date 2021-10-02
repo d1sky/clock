@@ -10,5 +10,6 @@ body {
 #clock {
     text-align: center;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 100px;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 }
