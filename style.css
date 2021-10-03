@@ -1,7 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 html, body, #container {
     height: 100%;
     overflow: hidden;
+    font-family: 'Open Sans', sans-serif;
   }
+
 #container {
     display: flex;
     justify-content: center;
@@ -10,6 +17,8 @@ html, body, #container {
 #clock {
     text-align: center;
     font-weight: bold;
-    font-size: 100px;
-    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    font-size: 130px;
+    text-shadow: 10px 10px 10px #357697;
+    outline: 0
 }
+
